@@ -1,0 +1,56 @@
+# 108. Convert Sorted Array to Binary Search Tree
+
+**Difficulty:** 🟢 Easy  
+**Topics:** `Array` `Divide and Conquer` `Tree` `Binary Search Tree` `Binary Tree`  
+**Solve Date:** 2026-08-10 00:58:12 UTC  
+**LeetCode Link:** [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+---
+
+## Problem Description
+
+Given an integer array `nums` where the elements are sorted in **ascending order**, convert *it to a ****height-balanced*** *binary search tree*.
+
+ 
+
+<strong class="example">Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/18/btree1.jpg" style="width: 302px; height: 222px;" />
+```
+
+**Input:** nums = [-10,-3,0,5,9]
+**Output:** [0,-3,9,-10,null,5]
+**Explanation:** [0,-10,5,null,-3,null,9] is also accepted:
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/18/btree2.jpg" style="width: 302px; height: 222px;" />
+
+```
+
+<strong class="example">Example 2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/18/btree.jpg" style="width: 342px; height: 142px;" />
+```
+
+**Input:** nums = [1,3]
+**Output:** [3,1]
+**Explanation:** [1,null,3] and [3,1] are both height-balanced BSTs.
+
+```
+
+ 
+
+**Constraints:**
+
+	- `1 <= nums.length <= 10^4`
+
+	- `-10^4 <= nums[i] <= 10^4`
+
+	- `nums` is sorted in a **strictly increasing** order.
+
+---
+
+## Submission Details
+
+- **Language:** Java
+- **Runtime:** 0 ms (Beats 100.00%)
+- **Memory:** 45.1 MB (Beats 45.10%)
+- **Submission Date:** 2026-08-10 00:58:12 UTC
